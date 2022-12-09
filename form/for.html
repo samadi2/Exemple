@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width">
+        <link rel="stylesheet" href="for.css">
+        <title>Formulaire</title>
+    </head>
+    <body>
+        <main>
+            <h1>Formulaire type</h1>
+            <h2> Coordonnees</h2>
+            <form action="" method="post">
+                <p>
+                    <label for="nom">Nom </label><br>
+                    <input type="text" name="nom" id="name">
+                </p>
+                <p>    
+                    <label for="prenom">Prenom</label><br>
+                    <input type="text" name="prenom" id="name">
+                </p>
+                <p>
+                    <label for="text">Je désire recevoir une documentation</label>
+                    <input type="checkbox" name="text" id="text">
+                </p>
+                <p>
+                    Pays
+                    <select name="text" id="menu">
+                        <option value="France">France</option>
+                        <option value="English">English</option>
+                        <option value="Espagne">Espagne</option>
+                    </select>
+                </p>
+                <p>
+                    Sexe
+                    <input type="radio" name="masc" id="">
+                    <label for="masc">Masculin</label>
+                    <input type="radio" name="femn" id="">
+                    <label for="femn">Feminin</label>
+                    <input type="radio" name="ascx" id="">
+                    <label for="ascx">Asexué</label>
+                <p>
+                <h2>Langage préféré?</h2>
+                <p>Vous pouvais en choisir plus qu'un...</p>
+                <p class="chrc">
+                    <input type="checkbox" name="Php" id="">
+                    <label for="Php">Php</label>
+                    <input type="checkbox" name="JS" id="">
+                    <label for="js">JS</label>
+                    <input type="checkbox" name="Py" id="">
+                    <label for="Py">Python</label>
+                    <input type="checkbox" name="aut" id="">
+                    <label for="aut">Autre</label>
+                </p>
+                <h2>Commentaire</h2>
+                <p>
+                    <label for="page">Si vous voulez, vous pouvez decrire vos activites ou interets</label><br>
+                    <textarea id="page" name="page" cols="30" rows="2"></textarea>
+                </p>
+                <button>
+                    Effacer les données
+                </button>
+                <button>
+                    Enregistrer les données
+                </button>
+            </form>
+        </main> 
+    </body>
+</html>
